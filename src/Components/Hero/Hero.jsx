@@ -8,7 +8,7 @@ const Hero = () => {
     <section className="hero-wrapper">
       <div className="paddings innerWidth flexCenter hero-container">
         {/* left side */}
-        <div className=" flexColStart hero-left">
+        <div className=" flexColCenter hero-left">
           <div className="hero-title">
             <div className="orange-circle" />
             <h1>
@@ -17,10 +17,12 @@ const Hero = () => {
             </h1>
           </div>
           <div className=" flexColStart hero-des">
-            <span>
+            <span className="secondaryText">
               Find a variety of properties that suit you very easilty{" "}
             </span>
-            <span>Forget all difficulties in finding a residence for you.</span>
+            <span className="secondaryText">
+              Forget all difficulties in finding a residence for you.
+            </span>
           </div>
           <div className="flexCenter search-bar">
             <HiLocationMarker color="var(--blue)" size={25} />
@@ -29,9 +31,10 @@ const Hero = () => {
           </div>
 
           <div className="flexCenter stats">
-            <div className="flexColStart stat">
+            <div className="flexColCenter stat">
               <span>
                 <CountUp start={88000} end={9000} duration={4} />
+                <span>+</span>
               </span>
               <span className="secondaryText">Premium Products</span>
             </div>
@@ -39,13 +42,15 @@ const Hero = () => {
             <div className="flexColStart stat">
               <span>
                 <CountUp start={1950} end={2000} duration={4} />
+                <span>+</span>
               </span>
               <span className="secondaryText">Happy Customers</span>
             </div>
 
-            <div className="flexColStart stat">
+            <div className="flexColCenter stat">
               <span>
                 <CountUp end={28} />
+                <span>+</span>
               </span>
               <span className="secondaryText">Award Winnings</span>
             </div>

@@ -2,7 +2,6 @@
   color: white;
   position: relative;
   padding-bottom: 2rem;
-  background: var(--black);
 }
 
 .hero-container {
@@ -12,6 +11,10 @@
 
 .hero-left {
   gap: 3rem;
+  margin-left: 200px;
+}
+.hero-right {
+  margin-right: 50px;
 }
 
 .hero-title {
