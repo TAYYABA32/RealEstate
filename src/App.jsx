@@ -4,6 +4,9 @@ import "./App.css";
 import Companies from "./Components/companies/Companies";
 import Residencies from "./Components/Resiencies/Residencies";
 import Value from "./Components/value/Value";
+import Contact from "./Components/contact/Contact";
+import Getstarted from "./Components/GetStarted/Getstarted";
+import Footer from "./Components/footer/footer";
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
         <Companies />
         <Residencies />
         <Value />
+        <Contact />
+        <Getstarted />
+        <Footer />
       </div>
     </div>
   );
